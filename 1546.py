@@ -14,4 +14,4 @@ for j in range(len(a)):
 for k in range(len(score)):
     sum += score[k]
 
-print(sum/n)
+print(round(sum/n, 2))
