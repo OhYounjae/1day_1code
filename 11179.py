@@ -7,7 +7,7 @@ print(sec_num)
 third_num = sec_num[::-1]
 print(third_num)
 
-last_num = int(bin(third_num), 2)
+last_num = int(third_num, 2)
 print(last_num)
 
 
