@@ -18,12 +18,14 @@ elif n % 5 == 0:
 a = n % 5
 b = n // 5
 c = n - (5 * b)
+d = c // 3
+e = c % 3
 
 if a == 0 :
     print(b)
 elif a != 0 :
-    if c % 3 == 0:
-        print(b + (c // 3))
+    if e == 0:
+        print(b + (d))
 
-    elif c % 3 != 0 :
+    elif e != 0 :
         print(-1)
