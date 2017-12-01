@@ -12,6 +12,8 @@ last_num = int(third_num, 2)
 
 
 """
+# str is immutable type
+
 for i in range(len(first_num)//2):
     num = first_num[i]
     first_num[i] = first_num[-i]
